@@ -36,7 +36,7 @@ games = ['kbaseball', 'wbaseball', 'kfootball', 'wfootball',
 
 class Sports:
     def __init__(self):
-        self.time_mark = {7: 0, 12: 0, 16: 0, 21: 0}
+        self.time_mark = {7: 0}
         self.tz = pytz.timezone('Asia/Seoul')
 
     def recruit_knights(self, game, day):
